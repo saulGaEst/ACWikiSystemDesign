@@ -1594,3 +1594,34 @@ button.btn-primary:focus {
         height: 24px;
     }
 }
+
+.wiki-footer {
+    margin-left: 280px;
+    padding: 2.5rem 2rem;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    border-top: 3px solid #0066CC;
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 0.875rem;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wiki-footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.wiki-footer p i {
+    color: #0066CC;
+    margin: 0 0.25rem;
+}
+
+@media (max-width: 991px) {
+    .wiki-footer {
+        margin-left: 0;
+        padding: 1.5rem 1rem;
+    }
+}
+
